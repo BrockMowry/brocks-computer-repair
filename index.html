@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brock's Computer Repair | Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-image {
+            background-image: url("imgs/forest-background.jpeg");
+        }
+
+        .jumbotron-mask {
+            backdrop-filter: blur(1px);
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .spacer {
+            margin: 20px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-image">
+        <div class="jumbotron-mask">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand mb-0 h1" href="#">BCR</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="p-5 d-flex justify-content-center align-items-center">
+                <div class="text-white text-center">
+                    <h1 class="display-6">Brock's Computer Repair</h1>
+                    <p class="lead">You break 'em, we wake 'em!</p>
+                    <a class="btn btn-outline-light btn-lg my-2" href="#!" role="button">Contact us now!</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="spacer"></div>
+
+    <div class="row px-3 gap-2 w-100">
+        <div class="col">
+            <main>
+                <article>
+                    <h2>Who are we?</h2>
+                    <p class="lead">Founded in 1908; BCR is your one-stop-shop for anything PC and Mac. We combine
+                        amazing PC knowledge and friendly faces to provide you with the best experience you could ask
+                        for.
+                    </p>
+
+                    <!-- 
+                        Since I am hard-coding this website. I am just splitting <p> tags. 
+                        However, if this information was being pulled from some database or blog, this should be replace with br.
+                    -->
+                    <p class="lead">What services do we offer?</p>
+                    <div class="row gap-2">
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">PC building</h5>
+                                    <hr class="my-2">
+                                    <p class="card-text">We're gamers too. We love building gaming rigs. You pick your
+                                        preferred FPS in 3 games, provide us with a budget, and let us work our magic.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">PC tune-ups</h5>
+                                    <hr class="my-2">
+                                    <p class="card-text">We all love Lightning McQueen. How about we make your PC
+                                        <em>quicker than quick</em>?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Virus removal</h5>
+                                    <hr class="my-2">
+                                    <p class="card-text">Our expert technicians love those pesky viruses.</p>
+                                    <div class="code-block p-3 bg-light rounded rounded-3 text-monospace">
+                                        if (virusFound) remove();
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </div>
+        <div class="col-md-3 p-3 bg-light rounded rounded-3">
+            <h3>How to protect yourself online?</h3>
+            <p>As much as we love our customers coming to us for their PC repairs, we love to promote a safe online
+                presence.</p>
+            <p>Here are some steps you can use to protect yourself online:</p>
+            <ol>
+                <li>Use a VPN; using a VPN is one of, if not the most useful tool(s) for online safety.</li>
+                <li>Reduce simple/repetitive password.</li>
+                <li>Stay away from sketchy websites; if you have a gut feeling, it is probably a sketchy website.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <footer class="text-center">
+        <p>made by BCR</p>
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
